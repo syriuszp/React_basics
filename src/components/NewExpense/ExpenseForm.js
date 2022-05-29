@@ -23,6 +23,7 @@ const ExpenseForm = (props) => {
     
     const submitHandler = (event) => {
         event.preventDefault();
+        console.log('test');
         
         const expenseData = {
             title: enteredTitle,
